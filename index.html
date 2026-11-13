@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dino Runner - Cenário Nublado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <div class="hud">
+            <div class="score-box">Pontos: <span id="score">0</span> / <span id="target-score">1000</span></div>
+            <div class="high-score-box">Recorde: <span id="high-score">0</span></div>
+        </div>
+
+        <div class="clouds-layer">
+            <div class="cloud cloud-1"></div>
+            <div class="cloud cloud-2"></div>
+            <div class="cloud cloud-3"></div>
+        </div>
+
+        <div id="dino"></div>
+        <div id="cactus"></div>
+        <div class="ground"></div>
+
+        <div id="overlay" class="overlay">
+            <h1 id="overlay-title">DINO JUNA</h1>
+            <p id="overlay-subtitle">Alcance 2.000 pontos para vencer!</p>
+            <p class="controls-hint">Pressione <strong>ESPAÇO</strong> ou <strong>CLIQUE</strong> para pular</p>
+            <button id="start-btn">Iniciar Jogo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
