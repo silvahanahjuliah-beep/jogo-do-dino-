@@ -1,0 +1,5 @@
+dino-game/
+│
+├── index.html
+├── style.css
+└── script.js
